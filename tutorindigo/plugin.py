@@ -19,8 +19,8 @@ config: t.Dict[str, t.Dict[str, t.Any]] = {
     # Add here your new settings
     "defaults": {
         "VERSION": __version__,
-        "WELCOME_MESSAGE": "The place for all your online learning",
-        "PRIMARY_COLOR": "#3b85ff",  # cool blue
+        "WELCOME_MESSAGE": "Start your career in Tech.",
+        "PRIMARY_COLOR": "#e94154",  # cool blue
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[]
