@@ -17,6 +17,15 @@ body, body.view-profile {
   margin: 0 auto;
   padding: 0 15px;
   border: none;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+.page-content-container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: none;
 }
 
 %btn-pl-default-base {
@@ -287,10 +296,7 @@ nav.wrapper-preview-menu {
 @import '../../../dashbord/dashbord';
 @import '../../../courseware/discover';
 @import '../../../courseware/about';
-<<<<<<< HEAD
 @import '../../../courseware/bookmarks';
-=======
->>>>>>> 5ee6eac (fix: Updates of favicon and minor fixes - v2.1)
 @import '../../../home/home';
 
 
